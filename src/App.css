@@ -1,0 +1,204 @@
+.App {
+  color: #F1F1F1;
+  font-family: 'Organica', sans-serif;
+  margin: 0;
+  right: 0;
+}
+
+.top {
+  position: absolute;
+  background-color: #C22127;
+  height: 900px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: 0;
+  top: 0;
+}
+.top-new{
+  padding-top:50px;
+  margin-left: 5%;
+}
+
+.top-new-img img{
+   filter: invert(100%);
+   height: 70px;
+   width: 25;
+}
+
+.top-h3{
+  display: flex;
+  gap: 60px;
+  position: absolute;
+  width: 43px;
+  height: 17px;
+  left: 1350px;
+  top: 70px;
+}
+
+.top-text h1 {
+  height: 353px;
+width: 973px;
+position: absolute;
+width: 973px;
+font-family: 'Organica';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 90px;
+letter-spacing: 1%;
+}
+
+.top-text h1 span {
+  text-decoration: underline;
+}
+
+.top-hero img {
+  height: 380px;
+  width: 323px;
+  position: absolute;
+left: 69.86%;
+right: 7.71%;
+top:50%;
+bottom: 50.9%;
+}
+
+.top-footer{
+  display: flex;
+  gap: 98px;;
+  padding-top: 35%;
+}
+
+.top-footer h3{
+  font-size: 16px;
+  letter-spacing: 1%;
+  line-height: 24px;
+}
+
+.top-footer p{
+  color: #bab5b5;
+}
+
+.bottom {
+  position: absolute;
+   width: 100%;
+  height: 920px;
+  top:900px;
+  background: #141414;
+  left: 0;
+  right: 0;
+}
+
+.bottom-top h1{
+  
+position: absolute;
+width: 459.91px;
+height: 134px;
+left: 80px;
+color: #F1F1F1;
+font-family: 'Organica';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 67px;
+letter-spacing: 1%;
+}
+
+.bottom-hours{
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  left: 65%;
+  top: 30px;
+}
+
+.bottom-para {
+  
+position: absolute;
+width: 471.96px;
+height: 120px;
+left: 80px;
+top: 200px;
+font-family: 'Organica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing:1%;
+text-transform: lowercase;
+}
+
+.bottom-form{
+  position: absolute;
+  top: 380px;
+  left: 80px;
+  display: flex;
+  flex-direction: column; 
+}
+.bottom-form input{
+  width: 360px;
+  height: 50px;
+  color: #F1F1F1;
+  background-color: #141414;
+  border-top: #141414;
+  border-left: #141414;
+  border-right: #141414;
+}
+
+
+.bottom-form:active{
+  border-top: #141414;
+  border-left: #141414;
+  border-right: #141414;
+}
+
+.bottom-form ::placeholder{
+  color: #F1F1F1;
+  background-color: #141414;
+
+}
+
+.bottom-form button{
+  position: absolute;
+  top: 147px;
+  color: #F1F1F1;
+  background-color: #141414;
+  border-color: #C22127;
+  border-radius: 30px;
+  letter-spacing:1%;
+  width: 175px;
+  height: 50px;
+}
+
+.bottom-last{
+  
+position: absolute;
+height: 24px;
+left: 80px;
+top: 600px;
+font-family: 'Organica';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
